@@ -30,7 +30,7 @@ def trump_donald():
             for class_id in class_ids:
                 # Browse first Google Ad using V0MxL class identifier. 
                 browser.get(google_search_url)
-                browser.save_screenshot('site00.png') # Debugging. Visually verifies we landed on the target page.
+                #browser.save_screenshot('site00.png') # Debugging. Visually verifies we landed on the target page.
                 sleep(1)
                 print(browser.title)
                 browser.find_elements_by_class_name(class_id)[0].click() # List object returned, so target first element found.                    
