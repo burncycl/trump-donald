@@ -11,7 +11,10 @@ Based on Google's Documentation, the click is counted as soon as it's received.
 ```
 Counting clicks
 
-When a user clicks on an ad creative, a click request is sent to the Ad Manager ad server. Ad Manager counts a click as soon as it receives the click request and then sends the user the defined click-through URL. Note that Ad Manager counts the click when it's received, not when the user is redirected to the click-through URL.
+When a user clicks on an ad creative, a click request is sent to the Ad Manager ad server. 
+Ad Manager counts a click as soon as it receives the click request and then sends the user 
+the defined click-through URL. Note that Ad Manager counts the click when it's received, 
+not when the user is redirected to the click-through URL.
 ```
 
 Reference: 
