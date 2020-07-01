@@ -4,9 +4,14 @@
 
 Trump Ads cost money. Script will browse the top two Google Ads in a loop. Thus costing the campaign money.
 
+Written for Linux systems. But, with some technical skill can be utilized on Mac or Windows.
+
 ![Google Ads](google_ads.png)
 
-Based on Google's Documentation, the click is counted as soon as it's received.
+
+But wait, won't Google Detect you're a bot?
+
+Maybe...Based on Google's Documentation, the click is counted as soon as it's received.
 
 ```
 Counting clicks
@@ -17,11 +22,11 @@ the defined click-through URL. Note that Ad Manager counts the click when it's r
 not when the user is redirected to the click-through URL.
 ```
 
+To get around this, we click on a sub-page at a random interval. 
+
 Reference: 
 - https://support.google.com/admanager/answer/2521337?hl=en 
 - https://support.google.com/admanager/answer/141811#googleAdManagerIABFiltration
-
-Written for Linux systems. But, with some technical skill can be utilized on Mac or Windows.
 
 ### Installation
 Ubuntu 18.04+
