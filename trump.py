@@ -51,7 +51,7 @@ def trump_donald():
                 #browser.save_screenshot('page02.png') # Debugging. Visually verifies we landed on the target page.
                 random_sleep()                 
             
-            browser.quit() # Quit to browser to nuke the session.
+            browser.quit() # Quit browser to nuke the session.
             
         except Exception as e:
             print(e)
@@ -66,7 +66,6 @@ def random_sleep():
     wait_time = randint(wait_interval_min, wait_interval_max)
     print('Simulating Human - Waiting: {}s'.format(wait_time))
     sleep(wait_time)
-
 
 
 trump_donald()
