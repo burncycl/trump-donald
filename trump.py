@@ -61,8 +61,8 @@ def trump_donald():
 
 def random_sleep():    
     # Wait random interval to simulate human browsing.            
-    wait_interval_max = 15
-    wait_interval_min = 5          
+    wait_interval_max = 90 
+    wait_interval_min = 30 
     wait_time = randint(wait_interval_min, wait_interval_max)
     print('Simulating Human - Waiting: {}s'.format(wait_time))
     sleep(wait_time)
